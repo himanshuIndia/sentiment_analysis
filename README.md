@@ -12,7 +12,9 @@
 [TextBlob](http://textblob.readthedocs.io/en/dev/)
 is used. Individual sentiment value was calculated for tweets and news related to each named entity adn then its mean was taken to get the final sentiment value.
 
-
+<p align="center">
+  <img src="fig.png" width=892 height=584>
+</p>
 
 
 ## TODO:
