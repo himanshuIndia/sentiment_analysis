@@ -13,9 +13,7 @@ posts = db.posts
 
 get_tweets.getTweets(config.twitter_key,config.twitter_secret, config.app_token,config.app_secret)
 
-keys,ner_dict = get_ner.getNER(posts,10)
-
-keys = [key.encode('utf-8') for key in keys ]
+keys,ner_dict = get_ner.getNER(posts,config.top_n)
 
 headlines = get_news.getNews(keys)
 

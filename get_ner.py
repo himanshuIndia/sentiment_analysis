@@ -51,4 +51,6 @@ def getNER(posts,num_keys):
         key_max.append(max(ner_count.items(), key=operator.itemgetter(1))[0])
         ner_count.pop(max(ner_count.items(), key=operator.itemgetter(1))[0])
 
+    key_max = [key.encode('utf-8') for key in key_max]
+
     return key_max,ner_dict
