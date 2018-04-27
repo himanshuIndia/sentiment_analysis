@@ -27,11 +27,11 @@ def plotSentiment(h_s,t_s):
     width = 0.35       # the width of the bars
 
     fig, ax = plt.subplots(figsize=(10,8))
-    rects1 = ax.bar(ind, news, width, color='r')
+    rects1 = ax.bar(ind, news, width, color='skyblue')
 
     tweet = [t_s[x] for x in t_s.keys()]
 
-    rects2 = ax.bar(ind + width, tweet, width, color='y')
+    rects2 = ax.bar(ind + width, tweet, width, color='coral')
 
     # add some text for labels, title and axes ticks
     ax.set_ylabel('Scores')

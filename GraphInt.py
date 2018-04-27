@@ -14,7 +14,7 @@ import pickle
 # Flask App
 app = Flask(__name__, static_url_path='/static')
 def load_obj(name):
-    with open('/obj/' + name + '.pkl', 'rb') as f:
+    with open('./obj/' + name + '.pkl', 'rb') as f:
         return pickle.load(f)
 ner_dict = load_obj('tweet_5000_2')
 ner_id = load_obj('tweet_id_5000_2')

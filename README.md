@@ -11,6 +11,19 @@
 - For sentiment analysis
 [TextBlob](http://textblob.readthedocs.io/en/dev/)
 is used. Individual sentiment value was calculated for tweets and news related to each named entity adn then its mean was taken to get the final sentiment value.
+## Files
+- GraphInt.py: Contains code for the online app.
+- config.py: Parametes used in the app. App keys, database name, etc.
+- db_op.py: Used for fetching values(created_at, location) from mongodb. The functions take id as the argument.
+- get_ner.py: Used to extract named entities. The function getNER returns a list of top named entities and a dictionary of NE and cleaned tweets.
+- get_news.py: Takes list of named entities as input and returns a dict of named entities and fetched headlines.
+- get_sentiment.py: Takes the headlines and tweet dict as input and returns avg sentiment scores for each entity. Score > 0 is positive, score < 0 is negative and 0 signifies neutral.
+- get_tweets.py: Used to fetch tweets from Twitter API and store them to mongoDB
+- main.py: Used for generating the graphs below.
+- mongoload.py: Used for dumping data to database on droplet.
+- plot_data.py: Contains 3 functions to plot graphs for sentiment, timeseries data of tweets and location.
+- twitter.json: mongoDB dump
+
 
 <p align="center">
   <img src="figures/fig.png" width=892 height=584>
@@ -24,7 +37,8 @@ is used. Individual sentiment value was calculated for tweets and news related t
   <img src="figures/tweet_distribution.png" width=892 height=584>
 </p>
 
-- [Link to droplet](http://159.65.158.168:5003/)
+
+## [Link to droplet](http://159.65.158.168:5003/)
 
 ## TODO:
 Pull requests are welcome.
