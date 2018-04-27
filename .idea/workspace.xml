@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87b8f6d4-1463-4804-8714-d839b444bcd9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/timeseries.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/tweet_distribution.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg/call-to-action.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg/footer-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg/pattern-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg/profile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg/statistics.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bg/subscribe-pattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/favicon/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/favicon/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/graph/gp1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/graph/gp2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/graph/gp3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/owl-carousel/grabbing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/testimonial/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/testimonial/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/testimonial/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GraphInt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_op.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mongoload.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap3-wysihtml5.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap3-wysihtml5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/handlebars.runtime.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/wysihtml5x-toolbar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_file.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fig.png" afterPath="$PROJECT_DIR$/figures/fig.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sentiment_analysis.iml" afterPath="$PROJECT_DIR$/.idea/sentiment_analysis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_ner.py" afterPath="$PROJECT_DIR$/get_ner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_data.py" afterPath="$PROJECT_DIR$/plot_data.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fig.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
