@@ -13,7 +13,7 @@ posts = db.posts
 
 get_tweets.getTweets(config.twitter_key,config.twitter_secret, config.app_token,config.app_secret)
 
-keys,ner_dict = get_ner.getNER(posts,config.top_n)
+keys,ner_dict,ner_count = get_ner.getNER(posts,config.top_n)
 
 headlines = get_news.getNews(keys)
 

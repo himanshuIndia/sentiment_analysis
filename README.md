@@ -27,3 +27,12 @@ Pull requests are welcome.
 - [ ] Report these results you found in the steps 5 & 6 using graphs. Brownie points for cool interactive visualisations.
 - [ ] Set up a web application on Heroku or Digital Ocean Droplet with a user interface where we can input a named-entity and get the comparison between the news and twitter sentiments as an output.
 - [ ] Put all your code, along with the MongoDB collection, in a GitHub repository and share the link with us. Also, maintain a README.md explaining your codebase and the approach you followed.
+
+## References:
+- https://twython.readthedocs.io/en/latest/usage/streaming_api.html
+- http://api.mongodb.com/python/current/tutorial.html
+- https://newsapi.org/docs/client-libraries/python
+- https://matplotlib.org/examples/api/barchart_demo.html
+- https://nlp.stanford.edu/software/CRF-NER.html
+- https://matplotlib.org/basemap/
+- http://textblob.readthedocs.io/en/dev/

@@ -1,6 +1,11 @@
 #%matplotlib nbagg
 import numpy as np
 import matplotlib.pyplot as plt
+from mpl_toolkits.basemap import Basemap
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas
+
 
 
 def autolabel(ax,rects):
@@ -38,5 +43,48 @@ def plotSentiment(h_s,t_s):
 
     autolabel(ax,rects1)
     autolabel(ax,rects2)
-    plt.savefig('fig.png')
-    plt.show()
+    plt.savefig('./static/images/graph/gp3.png')
+    fig.clf()
+    plt.clf()
+    #plt.show()
+
+
+def plot_loc(loc_log,loc_lat):
+    plt.figure(figsize=(100, 50))
+    map = Basemap(projection='merc',
+                  resolution='h', area_thresh=0.1,
+                  llcrnrlon=-124.9, llcrnrlat=23.81,
+                  urcrnrlon=-57.58, urcrnrlat=57.37)
+
+    map.drawcoastlines()
+    map.drawcountries(color='green')
+    map.fillcontinents(color='skyblue')
+    map.drawmapboundary()
+    map.drawstates(color='blue')
+
+    lons = list(loc_log.values())
+    lats = list(loc_lat.values())
+    x, y = map(lons, lats)
+    map.plot(x, y, 'ro', markersize=50)
+
+    # lon = -135.3318
+    # lat = 57.0799
+    # x,y = map(lon, lat)
+    # map.plot(x, y, 'bo', markersize=1, )
+    plt.savefig('./static/images/graph/gp1.png', bbox_inches='tight', pad_inches=0.1)
+    #plt.show()
+    plt.clf()
+
+
+def plot_time(time):
+    ones = [1] * len(time)
+    idx = pandas.DatetimeIndex(time)
+    ITAvWAL = pandas.Series(ones, index=idx)
+
+    # Resampling
+    per_minute = ITAvWAL.resample('2S', how='sum').fillna(0)
+    plt.plot(per_minute.keys(), per_minute.values)
+    #plt.xticks(rotation=90)
+    plt.savefig('./static/images/graph/gp2.png')
+    #plt.show()
+    plt.clf()
