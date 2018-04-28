@@ -39,6 +39,7 @@ is used. Individual sentiment value was calculated for tweets and news related t
 
 
 ## [Link to droplet](http://159.65.158.168:5003/)
+- The images might takes some to update even after automatic refresh
 
 ## TODO:
 Pull requests are welcome.
